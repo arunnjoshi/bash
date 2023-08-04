@@ -14,3 +14,19 @@ expr 10 \* 20
 num1=10
 num2=20
 expr $num1 + $num2
+
+#  if statements in bash
+if [ $num1 -ne 10 ]
+then
+    echo "true"
+else
+    echo "false"
+fi
+
+# file check
+if [ -f ./bash.sh ]
+then
+    echo "file exist"
+else 
+    echo "no file exist"
+fi
