@@ -30,3 +30,7 @@ then
 else 
     echo "no file exist"
 fi
+# exit code 
+echo $? #exit code 0
+pp
+echo $? #exit code not zero , cause error in upper cm
