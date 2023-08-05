@@ -34,3 +34,10 @@ fi
 echo $? #exit code 0
 pp
 echo $? #exit code not zero , cause error in upper cm
+#while loop
+num1=1
+while [ $num1 -le 10 ]
+do 
+    echo $num1
+    num1=$((num1 + 1))
+done
